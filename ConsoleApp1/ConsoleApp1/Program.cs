@@ -14,3 +14,13 @@ static double GetAverage(int[] ints)
 
     return sum / ints.Length;
 }
+
+static int GetMax(int[] ints)
+{
+    int max = ints[0];
+    for (int i = 1; i < ints.Length; i++)
+        if (ints[i] > max)
+            max = ints[i];
+ 
+    return max;
+}
