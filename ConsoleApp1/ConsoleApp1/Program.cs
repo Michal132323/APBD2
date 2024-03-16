@@ -3,8 +3,8 @@
 Console.WriteLine("Hello, World!");
 int[] integers = new int[] { 1, 2, 3, 4, 5, 6 };
 
-Console.WriteLine(GetAvg(integers));
-static double GetAvg(int[] ints)
+Console.WriteLine(GetAverageNumber(integers));
+static double GetAverageNumber(int[] ints)
 {
     double sum = 0;
     for (int i = 0; i < ints.Length; i++)
