@@ -15,7 +15,7 @@ static double GetAverage(int[] ints)
     return sum / ints.Length;
 }
 
-static int GetMaxNumber(int[] ints)
+static int GetMax(int[] ints)
 {
     int max = ints[0];
     for (int i = 1; i < ints.Length; i++)
